@@ -1,20 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import LocalClock from "./components/local-clock";
+import ClockList from "./components/clock-list";
 
 function App() {
-  return (
-    <div className="App">
-        <h2>
-          this is track zone project deploy
-        </h2>  <h2>
-          this is track zone project deploy
-        </h2>  <h2>
-          this is track zone project deploy
-        </h2>  <h2>
-          this is track zone project deploy
-        </h2>
-    </div>
-  );
+    return (
+        <div className="App">
+            <LocalClock />
+            <ClockList />
+        </div>
+    );
 }
 
 export default App;
